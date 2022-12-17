@@ -413,7 +413,7 @@ br.clear {
 #confrence div.let_us_redefine div.re_img  div.frame_img .img_02 {
     width: 150px;
     height: 150px;
-    border: 5px solid #e7b28e;
+    border: 5px solid #ffffff;
     border-radius: 50%;
     position: absolute;
     z-index: 2;
@@ -460,5 +460,105 @@ br.clear {
     
 }
 #brand div.brand ul li a img {
+    width: 100%;
+    display: block;
+    
+}
+#gte_in {
 
 }
+#gte_in div.one {
+
+
+
+}
+#gte_in div.one div.gray {
+    background: rgb(95, 95, 95);
+    height: 100vh;
+    border-top-left-radius: 923px;
+    border-top-right-radius: 1050px 593px;
+} 
+#gte_in div.one img.blue {
+   
+}
+#gte_in section.get {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+#gte_in section.get div.left_img {
+    width: 45%;
+}
+#gte_in section.get div.left_img img {
+    width: 100%;
+    display: block;
+    border-radius: 59% 41% 47% 53% / 49% 56% 44% 51%;
+}
+#gte_in section.get div.form {
+    width: 50%;
+    background: #fff;
+}
+#gte_in section.get div.form h4 {
+
+}
+#gte_in section.get div.form form {
+
+}  
+#gte_in section.get div.form form div.top {
+
+}  
+#gte_in section.get div.form form div.bottom {
+
+}  
+#gte_in section.get div.form button {
+    
+}   
+#gte_in footer {
+
+}
+#gte_in footer hr.line {
+
+}
+#gte_in footer section.bottom {
+
+} 
+#gte_in footer section.bottom div.social {
+
+}  
+#gte_in footer section.bottom div.social  h3 {
+
+} 
+#gte_in footer section.bottom div.social a {
+
+}
+#gte_in footer section.bottom div.social div.social_img {
+
+}
+#gte_in footer section.bottom div.social div.social_img ul {
+
+}
+#gte_in footer section.bottom div.social div.social_img ul li {
+
+}
+#gte_in footer section.bottom div.social div.social_img ul li a {
+
+}
+#gte_in footer section.bottom div.social div.social_img ul li a img {
+    
+}
+#gte_in footer section.bottom div.social div.list {
+
+}
+#gte_in footer section.bottom div.social div.list h3 {
+
+}
+#gte_in footer section.bottom div.social div.list ul {
+
+}
+#gte_in footer section.bottom div.social div.list ul li {
+
+}
+#gte_in footer section.bottom div.social div.list ul li a {
+
+} 
