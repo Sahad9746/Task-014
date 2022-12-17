@@ -333,3 +333,47 @@ br.clear {
 	text-align: center;
 	font-size: 14px;
 }
+#work {
+    background: url("../Assets/Vector\ 285.png") center / cover no-repeat;
+	background-size: 100% 700px;
+	padding-bottom: 150px;
+}
+#work section.contents {
+    display: flex;
+	justify-content: space-between;
+	padding-top: 180px;
+}
+#work section.contents div.left {
+	padding: 15px 50px;
+}
+#work section.contents div.left h2{
+	font-size: 34px;
+	font-weight: 600;
+	margin: 10px 0 ;
+    width: 73%;
+}
+#work section.contents div.left p {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.8em;
+	margin-bottom: 15px;
+    width: 77%;
+} 
+#work section.contents div.left h4 {
+	margin-bottom: 15px;
+    font-weight: 600;
+} 
+#work section.contents div.left small {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.8em;
+} 
+#work section.contents div.right_img {
+	width: 100%;
+}
+#work section.contents div.right_img img {
+    display: block;
+	width: 100%;
+	border-radius: 59% 41% 47% 53% / 49% 56% 44% 51%;
+} 
