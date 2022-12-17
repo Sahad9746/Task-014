@@ -109,7 +109,8 @@ br.clear {
 
 } 
 #home section.header nav.middle ul li a {
-
+    color: #fff;
+    font-size: 18px;
 } 
 #home section.header a.button {
     padding: 10px 25px;
@@ -130,6 +131,7 @@ br.clear {
     width: 55%;
     margin-bottom: 36px;
     color: #fff;
+    text-transform: capitalize;
 } 
 #home div.content p {
     width: 60%;
@@ -156,6 +158,7 @@ br.clear {
 	font-size: 35px;
 	font-weight: 600;
 	margin-bottom: 27px;
+    text-transform: capitalize;
 } 
 #services div.server p {
 	font-size: 16px;
@@ -174,6 +177,7 @@ br.clear {
 	font-size: 37px;
 	font-weight: 700;
 	padding-bottom: 19px;
+    text-transform: capitalize;
 }  
 #Our_services div.service ul {
 	display: flex;
@@ -246,7 +250,7 @@ br.clear {
 	font-size: 34px;
 	font-weight: 600;
 	margin: 10px 0 ;
-
+    text-transform: capitalize;
 }
 #the_way_of_work section.container div.right_content p  {
 	font-size: 16px;
@@ -265,7 +269,7 @@ br.clear {
 	font-size: 14px;
 }
 #consulting {
-    /* padding: 150px 0; */
+
 }
 #consulting section.condainers {
     display: flex;
@@ -278,6 +282,7 @@ br.clear {
     font-size: 36px;
     font-weight: 600;
     text-align: left;
+    text-transform: capitalize;
 }
 #consulting section.condainers div.right {
     width: 65%;
@@ -351,6 +356,7 @@ br.clear {
 	font-weight: 600;
 	margin: 10px 0 ;
     width: 73%;
+    text-transform: capitalize;
 }
 #work section.contents div.left p {
 	font-size: 16px;
@@ -385,6 +391,8 @@ br.clear {
     font-weight: 600;
     text-align: center;
     margin-bottom: 135px;
+    text-transform: capitalize;
+
 } 
 #confrence div.let_us_redefine {
 
@@ -420,10 +428,7 @@ br.clear {
 }
 #confrence div.let_us_redefine div.re_img  div.frame_img .img_02 img {
     width: 100%;
-    display:block ;
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
+    display:block;
 }
 #confrence div.let_us_redefine div.re_content {
     width: 50%;
@@ -473,92 +478,157 @@ br.clear {
 
 }
 #gte_in div.one div.gray {
-    background: rgb(95, 95, 95);
+    background: #e4e3e3;
     height: 100vh;
     border-top-left-radius: 923px;
     border-top-right-radius: 1050px 593px;
 } 
 #gte_in div.one img.blue {
-   
+   width: 100%;
+   display: block;
+}
+#gte_in div.one img.blue img {
+    width: 100%;
+    display: block;
 }
 #gte_in section.get {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    margin-top: -720px;
 }
 #gte_in section.get div.left_img {
     width: 45%;
+
 }
 #gte_in section.get div.left_img img {
     width: 100%;
+    height: 555px;
     display: block;
     border-radius: 59% 41% 47% 53% / 49% 56% 44% 51%;
 }
 #gte_in section.get div.form {
     width: 50%;
-    background: #fff;
+    padding: 25px 15px;
 }
 #gte_in section.get div.form h4 {
-
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 26px 10px ;
 }
 #gte_in section.get div.form form {
-
+    
 }  
 #gte_in section.get div.form form div.top {
 
 }  
+#gte_in section.get div.form form div.top input[type="text"] {
+    padding: 12px 12px;
+	border: 1px solid #d4d4d4;
+    background: #fff;
+	border-radius: 8px;
+	margin: 0 10px 24px;
+    font-style: 14px;
+    font-weight: 700;
+	width: 45%;
+}
 #gte_in section.get div.form form div.bottom {
 
+}
+#gte_in section.get div.form form div.bottom input[type="text"] {
+    width: 95%;
+    height: 55px;
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #fff;
+    margin-left: 10px;
+    font-style: 14px;
+    font-weight: 700;
+    padding: 12px;
 }  
+#gte_in section.get div.form form div.bottom input[type="text"]:last-child {
+    height: 120px;
+}
 #gte_in section.get div.form button {
-    
+    padding: 10px 40px;
+    background: linear-gradient(to right, rgb(32 196 0), rgb(177 228 188));
+    border-radius: 15px;
+    color: #fff;
+	display: inline-block;
+	font-size: 14px;
+    margin: 25px 10px;
 }   
 #gte_in footer {
-
+    margin-top: 100px;
 }
 #gte_in footer hr.line {
-
+    border-bottom: 1px dotted #fff;
+    width: 85%;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 150px;
 }
 #gte_in footer section.bottom {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
 } 
 #gte_in footer section.bottom div.social {
 
 }  
 #gte_in footer section.bottom div.social  h3 {
-
+    text-align: center;
+    text-transform: uppercase;
 } 
 #gte_in footer section.bottom div.social a {
-
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+    color: #fff;
 }
+#gte_in footer section.bottom div.social a:last-child {
+
+} 
 #gte_in footer section.bottom div.social div.social_img {
 
 }
 #gte_in footer section.bottom div.social div.social_img ul {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #gte_in footer section.bottom div.social div.social_img ul li {
 
 }
-#gte_in footer section.bottom div.social div.social_img ul li a {
+#gte_in footer section.bottom div.social div.social_img ul li  {
+    padding: 6px;
+    background: rgb(32 196 0);
+    border-radius: 8px;
+    margin-right: 10px;
+}
+#gte_in footer section.bottom div.social div.social_img ul li img {
+    width: 100%;
+    display: block;
+    filter: invert();
+}
+#gte_in footer section.bottom div.list {
+    margin: 0 auto;
+}
+#gte_in footer section.bottom div.list h3 {
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+#gte_in footer section.bottom div.list ul {
 
 }
-#gte_in footer section.bottom div.social div.social_img ul li a img {
-    
+#gte_in footer section.bottom div.list ul li {
+    margin-bottom: 10px;
 }
-#gte_in footer section.bottom div.social div.list {
-
-}
-#gte_in footer section.bottom div.social div.list h3 {
-
-}
-#gte_in footer section.bottom div.social div.list ul {
-
-}
-#gte_in footer section.bottom div.social div.list ul li {
-
-}
-#gte_in footer section.bottom div.social div.list ul li a {
-
+#gte_in footer section.bottom div.list ul li a {
+    color: #fff;
+    font-size: 12px;
 } 
