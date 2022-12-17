@@ -121,7 +121,7 @@ br.clear {
 }
 #home div.content {
     text-align: left; 
-    padding: 67px 18px;
+    padding: 114px 20px;
     color: #fff;
 
 }
@@ -262,5 +262,74 @@ br.clear {
     border-radius: 15px;
     color: #fff;
 	display: inline-block;
+	font-size: 14px;
+}
+#consulting {
+    /* padding: 150px 0; */
+}
+#consulting section.condainers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#consulting section.condainers h2.left  {
+    width: 35%;
+    padding: 25px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+}
+#consulting section.condainers div.right {
+    width: 65%;
+   
+    padding: 25px;
+
+}
+#consulting section.condainers div.right ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#consulting section.condainers div.right ul li {
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+#consulting section.condainers div.right ul li:nth-child(1) {
+    width: 30%;
+}
+#consulting section.condainers div.right ul li:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -100px;
+}
+#consulting section.condainers div.right ul li:nth-child(2) div {
+    
+    width: 30%;
+}
+#consulting section.condainers div.right ul li:nth-child(3) {
+    width: 30%;
+    margin-top: -80px;
+}
+
+#consulting section.condainers div.right ul li div.consult_img {
+	width: 50px;
+	margin: 0 auto 10px;
+}
+#consulting section.condainers div.right ul li div.consult_img img {
+	display: block;
+	width: 100%;
+    filter: invert(68%) sepia(24%) saturate(580%) hue-rotate(50deg) brightness(90%) contrast(87%);
+}
+#consulting section.condainers div.right ul li h5 {
+	font-size: 21px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#consulting section.condainers div.right ul li p {
+	text-align: center;
 	font-size: 14px;
 }
