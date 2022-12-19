@@ -693,11 +693,148 @@ br.clear {
         margin-top: -70px;
     }
 } 
-@media all and (max-width: 1280px)  {
+@media all and (max-width: 980px) {
+    #home img.bg {
+        height: 700px;
+    }
+    #home img.bgsecond {
+        height: 700px;
+    }
+    #home section.header nav.middle ul li a {
+        display: none;
+    }
+    #home div.content {
+        padding: 15px 20px;
+    }
+    #home div.content h1 {
+        font-size: 30px;
+        width: 45%;
+        margin-bottom: -18px;
+    }
+    #home div.content a.button {
+        font-size: 10px;
+    }
+    #services {
+        display: none;
+    }
+    #Our_services {
+        margin-top: 300px;
+    }
+    #Our_services div.service ul li div.frame div.icon {
+        left: 80px;
+    }
+    #the_way_of_work section.container div.left_img {
+        display: none;
+    }
+    #the_way_of_work section.container div.right_content {
+        margin: 0 auto;
+        text-align: center;
+    }
+    #the_way_of_work section.container div.right_content h2 {
+    }
+    #consulting section.condainers {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 80px;
+        margin-bottom: -100px;
+    }
+    #consulting section.condainers h2.left {
+        width: 100%;
+        text-align: center;
+    }
+    #consulting section.condainers div.right {
+        width: 100%;
+    }
+    #work section.contents div.right_img {
+        width: 0;
+    }
+    #work section.contents div.right_img img{
+        display: none;
+    }
+    #work section.contents div.left {
+        width: 100%;
+    }
+    #confrence h2 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    #brand div.brand {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #brand div.brand ul li {
+        margin-right: 10px;
+    }
+    #brand div.brand ul li h3 {
+        font-size: 20px;
+    }
+    #gte_in section.get div.form form div.top input[type="text"]{
+        width: 42%;
+    }
+} 
+@media all and (max-width: 768px)  {
+    #home section.header h1.left {
+        width: 50px;
+    }
+    #Our_services h2 {
+        font-size: 32px;
+    }
+    #Our_services div.service ul li div.frame div.icon {
+        left: 60px;
+    }
+    #Our_services div.service ul li p {
+        display: none;
+    }
+    #the_way_of_work {
+        background-size: 140% 532px;
+        margin-top: -195px;
+    }
+    #the_way_of_work section.container div.right_content h2 {
+        margin-top: 90px;
+    }
+    #consulting {
+        margin-top: -150px;
+    }
+    #work {
+        background-size: 100% 700px;
+    }
+    #work section.contents div.left {
+        margin-top: 25px;
+    }
+    #confrence div.let_us_redefine div.re_img {
+       display: flex;
+       flex-wrap: wrap;
+    }
+    #confrence div.let_us_redefine div.re_img div.frame_img {
+        width: 100%;
+        margin-top: 120px;
+    }
+    #confrence div.let_us_redefine div.re_content {
+        width: 100%;
+        text-align: center;
+        margin-top: 150px;
+    }
+    #brand {
+        display: none;
+    }
+    #gte_in section.get div.left_img{
+        display: none;
+    }
+    #gte_in section.get div.form {
+        width: 100%;
+        margin-top: 80px;
+    }
+    #gte_in section.get div.form form div.top input[type="text"] {
+        width: 45%;
+    }
+    #gte_in div.one {
+        display: none;
+    }
+    #gte_in section.get {
+        display: none;
+    }
 
 }
-@media all and (max-width: 980px) {
+@media all and (max-width: 640px)  {
 
-} 
-@media all and (max-width: 760px)  
-@media all and (max-width: 640px)  
+}
